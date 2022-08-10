@@ -18,6 +18,7 @@ module.exports = {
     ecmaFeatures: {
       jsx: true
     },
+    project: './tsconfig.json',
     ecmaVersion: 'latest',
     sourceType: 'module'
   },
@@ -86,22 +87,8 @@ module.exports = {
         'argsIgnorePattern': '_'
       }
     ],
-    '@typescript-eslint/explicit-function-return-type': [
-      'error',
-      {
-        'allowExpressions': true
-      }
-    ],
-    'import/no-duplicates': 'off',
+    '@typescript-eslint/explicit-function-return-type': 'off',
     'import/prefer-default-export': 'off',
-    'import/extensions': [
-      'error',
-      'ignorePackages',
-      {
-        'ts': 'never',
-        'tsx': 'never'
-      }
-    ]
   },
   settings: {
     react: {

@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config",
+  "name": "@pedrocs378/eslint-config",
   "version": "1.0.0",
   "description": "ESLint configuration used by pedrocs378",
   "main": "index.js",
