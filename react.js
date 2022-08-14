@@ -69,6 +69,15 @@ module.exports = {
     '@typescript-eslint/no-floating-promises': 'off',
     '@typescript-eslint/consistent-type-assertions': 'off',
     '@typescript-eslint/consistent-type-definitions': 'off',
+    '@typescript-eslint/no-misused-promises': [
+      'error',
+      {
+        'checksVoidReturn': {
+          'arguments': false,
+          'attributes': false
+        }
+      }
+    ],
     'jam3/no-sanitizer-with-danger': [
       2,
       {
