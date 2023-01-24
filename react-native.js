@@ -34,6 +34,7 @@ module.exports = {
     'react',
     'react-hooks',
     '@typescript-eslint',
+    'import'
   ],
   rules: {
     'prettier/prettier': ['error', {
@@ -55,6 +56,7 @@ module.exports = {
     'react-hooks/exhaustive-deps': 'warn',
     '@typescript-eslint/ban-ts-ignore': 'off',
     '@typescript-eslint/naming-convention': 'off',
+    '@typescript-eslint/prefer-nullish-coalescing': 'off',
     '@typescript-eslint/strict-boolean-expressions': 'off',
     '@typescript-eslint/no-floating-promises': 'off',
     '@typescript-eslint/consistent-type-assertions': 'off',

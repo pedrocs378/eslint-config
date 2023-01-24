@@ -1,6 +1,6 @@
 {
   "name": "@pedrocs378/eslint-config",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "private": false,
   "description": "ESLint configuration used by pedrocs378",
   "repository": {
@@ -23,7 +23,6 @@
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-react": "^7.32.1",
     "eslint-plugin-react-hooks": "^4.6.0",
-    "eslint-plugin-standard": "^5.0.0",
     "prettier": "^2.8.3"
   },
   "peerDependencies": {
