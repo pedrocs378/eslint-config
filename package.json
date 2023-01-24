@@ -6,6 +6,9 @@
   "repository": {
     "url": "/pedrocs378/eslint-config"
   },
+  "scripts": {
+    "publish": "npm publish --access public"
+  },
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
